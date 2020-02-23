@@ -16,7 +16,7 @@ main:
   - link: /stanoviska/
     name: Jak to vidí
     match: stanoviska
-  - link: /veresi/
+  - link: /vyresi/
     name: Vyřeší
     match: vyresi
 
