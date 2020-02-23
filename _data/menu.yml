@@ -10,25 +10,15 @@ top:
     icon: "fa fa-newspaper-o"
 
 main:
-  - link: /aktuality/
-    name: Aktuality
-    match: aktuality
-  - link: /lide/
-    name: O nás
-    match: lide
-  - link: /tabulka/
-    name: Tabulka
-    match: tabulka
-  - link: /komunalni-volby/
-    name: Komunální volby
-    match: komunalni-volby
-    submenu:
-      - link: /komunalni-volby/mapa-zameru/
-        name: Mapa záměrů
-        match: mapa-zameru
-  - link: /kontakt/
-    name: Kontakt
-    match: kontakt
+  - link: /prehledy/
+    name: Přehledy
+    match: prehledy
+  - link: /stanoviska/
+    name: Jak to vidí
+    match: stanoviska
+  - link: /veresi/
+    name: Vyřeší
+    match: vyresi
 
 bottom:
   - class: small-12 medium-4
@@ -39,12 +29,10 @@ bottom:
   - class: small-12 medium-4
     title: Makáme
     links:
-      - link: /lide/
-        name: Lidé
-      - link: /komunalni-volby/
-        name: Volby
-      - link: /aktuality/
+      - link: https://pirati.cz/
         name: Aktuality
+      - link: https://pirati.cz/snemovna
+        name: Sněmovna
   - class: small-12 medium-4
     title: Otevřenost
     links:
