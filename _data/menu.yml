@@ -10,22 +10,31 @@ top:
     icon: "fa fa-newspaper-o"
 
 main:
+  - link: /
+    name: Úvod
+  - link: /vyresi/
+    name: Co návrh řeší
+    match: vyresi
   - link: /prehledy/
-    name: Přehledy
+    name: Dobrá praxe
     match: prehledy
   - link: /stanoviska/
     name: Jak to vidí
     match: stanoviska
-  - link: /vyresi/
-    name: Vyřeší
-    match: vyresi
+  - link: /zdroje/
+    name: Zdroje
+    match: zdroje
 
 bottom:
   - class: small-12 medium-4
-    title: Připoj se
+    title: Sociální sítě
     links:
-      - link: /kontakt/
-        name: Dej nám vědět
+      - link: https://www.facebook.com/ceska.piratska.strana/
+        name: Facebook
+      - link: https://twitter.com/PiratskaStrana
+        name: Twitter
+      - link: https://www.instagram.com/pirati.cz/
+        name: instagram
   - class: small-12 medium-4
     title: Makáme
     links:
