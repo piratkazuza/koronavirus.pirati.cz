@@ -12,6 +12,8 @@ top:
 main:
   - link: /
     name: Úvod
+  - link: /aktuality
+    name: Aktuality
   - link: /vyresi/
     name: Co návrh řeší
     match: vyresi
