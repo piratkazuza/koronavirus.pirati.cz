@@ -12,6 +12,7 @@ rbar:
 ---
 
 {% capture md %} 
+
 ## Informační linky
 
 
@@ -23,17 +24,19 @@ Jen v případě vážných zdravotních problémů či ohrožení života volej
 
 Hot line koronavirus MZV: **+420 224 183 200**, **+420 224 183 100**
 
+Krizová linka Praha: **800 160 166**
+
 
 ### Pro seniory
-senior telefon	**800 157 157** (Život 90)
+senior telefon  **800 157 157** (Život 90)
 
-krizová Linka seniorů	**800 200 007** (denně od 8:00 do 20:00, Elpida)
+krizová Linka seniorů   **800 200 007** (denně od 8:00 do 20:00, Elpida)
 
-pomoc seniorům 	**840 111 122**
+pomoc seniorům  **840 111 122**
 
+krizová linka - Praha: **800 160 166**
 
 psychologická péče a podpora : **792 308 798** (sdružení Seniorem s radostí)
-
 
 ### Další linky
 
@@ -50,9 +53,64 @@ Infolinka Ministerstva zemědělství: **221 814 595**
 
 Infolinka MPO: **224 854 444**
 
+{% endcapture %}
+
+{% capture md2 %}
+
+## Informační weby
+
+### Státní instituce 
+
+[Ministerstvo zdravotnictví]( https://koronavirus.mzcr.cz/)
+
+[SZÚ (Státní zdravotní ústav)](http://szu.cz/tema/prevence/2019ncov)
+
+[Vláda ČR](https://www.vlada.cz/cz/media-centrum/aktualne/aktualni-informace-ke-koronaviru-sars-cov-2-puvodne-2019-ncov-179250/)
+
+[Ministerstvo práce a sociálních věcí]( https://www.mpsv.cz/web/cz/informace-ke-koronaviru)
+
+[Ministerstvo školství (MŠMT)](http://www.msmt.cz/)
+
+[Ministerstvo vnitra (MV)](https://www.mvcr.cz/clanek/coronavirus-informace-mv.aspx)
+
+**[Ministerstvo průmyslu a obchodu (MPO)](https://www.mpo.cz/cz/rozcestnik/pro-media/tiskove-zpravy/podrobnejsi-rozcestnik-v-kontextu-s-koronavirem--253458/)**
+
+[Ministerstvo financí (MF)]( https://www.mfcr.cz/cs/aktualne/koronavirus-covid-19/2020/ministerstvo-financi-prehledne-ke-korona-37925)
+
+[Ministerstvo zahraničí (MZV)]( https://www.mzv.cz/jnp/)
+
+[Ministerstvo dopravy (MD)]( https://www.mdcr.cz/Media/Media-a-tiskove-zpravy/Od-soboty-plati-mimoradna-opatreni-v-mezinarodni-d)
+
+[Ministerstvo zemědělství (MZe)]( http://eagri.cz/public/web/mze/)
+
+[Ministerstvo spravedlnosti (MS):](https://www.justice.cz/)
+
+[Magistrát hlavního města Prahy]( https://bezpecnost.praha.eu/udalosti/neco-se-deje_24_2_2020)
+
+### Média
+
+[Česká televize - rozcestník pro kraje](https://ct24.ceskatelevize.cz/specialy/3037207-koronavirus)
+
+[Český rozhlas](https://portal.rozhlas.cz/)
+
+### Poradny
+
+[Život 90 - informace pro seniory]( https://www.zivot90.cz/cs)
+
+[Koroporadna - Unie rodinných právníků, právní pomoc](http://www.uracr.cz/koroporadna?fbclid=IwAR1-kS_NXpaB_ySlUxQp7asZoAxsDZFWd40iazR7JaVMXV-TW4OMI_8LN9o)
+
+[Dělám, co můžu - psychologické online konzultace](https://www.delamcomuzu.cz/)
+
+[Diakonie](https://www.diakonie.cz/aktualni-pomoc)
+
+[EDA - služby rané péče, psychologická podpora](https://www.eda.cz)
+
+[Elpida - krizová pomoc pro seniory, pečující o seniory a osoby v krizi](https://www.elpida.cz)
 
 {% endcapture %}
 
+{% capture md3 %} 
+{% endcapture %}
 
 <div class="row">
 	{% if page.article-boxes %}
@@ -80,6 +138,7 @@ Infolinka MPO: **224 854 444**
   </div>
 </div>
 <p></p>
+            {{ md2 | markdownify }} 
             {% endcapture %}
             {% include page-header.html headline=page.title content=content %}
 		</article>
