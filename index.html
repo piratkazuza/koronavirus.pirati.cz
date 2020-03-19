@@ -12,7 +12,43 @@ rbar:
 ---
 
 {% capture md %} 
-Stránky jsou ve výstavbě.
+## Informační linky
+
+
+Bezplatná informační linka ke koronaviru: **1212**
+
+Nonstop infolinky Státního zdravotního ústavu: **+420 724 810 106**, **+420 725 191 367**, **+420&nbsp;3725&nbsp;3191&nbsp;370**
+
+Jen v případě vážných zdravotních problémů či ohrožení života volejte linky **155** a **112**
+
+Hot line koronavirus MZV: **+420 224 183 200**, **+420 224 183 100**
+
+
+### Pro seniory
+senior telefon	**800 157 157** (Život 90)
+
+krizová Linka seniorů	**800 200 007** (denně od 8:00 do 20:00, Elpida)
+
+pomoc seniorům 	**840 111 122**
+
+
+psychologická péče a podpora : **792 308 798** (sdružení Seniorem s radostí)
+
+
+### Další linky
+
+Krizová pomoc Diakonie Českobratrské církve evangelické: **800 567 567** (9:00 - 20:00)
+
+Krizová linka služby rané péče EDA.cz: **800 40 50 60** (9:00-15:00)
+
+
+Infolinka k opatřením v mzn. dopravě: CZ **225 131 810**, EN **225 131 820** (8:00-20:00)
+
+Informační linka Finanční správy: **225 092 392**
+
+Infolinka Ministerstva zemědělství: **221 814 595**
+
+Infolinka MPO: **224 854 444**
 
 
 {% endcapture %}
@@ -34,6 +70,16 @@ Stránky jsou ve výstavbě.
 			<link itemprop="mainEntityOfPage" href="{{ page.url }}">
             {% capture content %} 
             {{ md | markdownify }} 
+<div class="row">
+  <div class="medium-12 large-12 columns">
+    <div id="tlacitko" style="    text-align: center;">
+        <a href="https://get.yourpass.eu/232bc0cc-75e8-4265-969f-424dedbf98ff?tag=zachranka&fbclid=IwAR0dlAzpvO8j1ta6q0NThK_GIoYz47x0qTWOl6RjInjSx7Apapaz1RnMAl4" target="_blank" style="width: 350px; margin-top: 10px; text-align: center; padding: 22px; font-size: 22px; background-color: #A9A9A9;border-color: #5cb85c; color: white;" class="c-cta-button c-cta-button--primary">
+          Mobilní infokarta ke stažení 
+        </a>
+    </div>
+  </div>
+</div>
+<p></p>
             {% endcapture %}
             {% include page-header.html headline=page.title content=content %}
 		</article>
