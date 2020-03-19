@@ -1,0 +1,78 @@
+---
+layout: default
+title: 
+rousky: 
+    title: Informační video
+    id: "s-hsj4gTJPg"
+facebook:
+    profilePageName: Česká pirátská strana
+    profilePage: https://www.facebook.com/ceska.piratska.strana/
+rbar:
+   - video
+---
+
+{% capture md %} 
+## Dostupnost zdravotnického materiálu: 
+
+Naprostou prioritou je v tuto chvíli zajistit dostupnost zdravotních ochranných pomůcek a instruovat občany, instituce i firmy o nutnosti jejich používání.
+
+* Zveřejnit jasný harmonogram, pravidla a způsob distribuce OOP včetně doplňování.
+* Podpořit kapacity výroby OOP v ČR, pokud je to možné.
+* Pokud je reálným cílem zajistit roušky “všem občanům”, kvůli snižování možnosti šíření viru je třeba zveřejnit plánovaný distribuční model a zvážit oblasti, kde nošení roušky či jiný způsob zakrytí tváře bude povinné (úřady, MHD, supermarkety, a to jak pro občany tak pro zaměstnance)
+
+## Léky v lékárnách a nemocnicích:
+
+Vzhledem k výrobní kapacitě mimo EU je naprosto nezbytné jasně uvést, které léky jsou k dispozici ve skladech v ČR a u kterých může v nastávajících měsících nastat problém s dostupností. 
+
+* Zmapovat, jaké léky bude stát potřebovat pro léčbu osob s koronavirem - dodat analýzu jejich množství a dostupnosti.
+* Zajistit analýzu rizik dlouhodobého nedostatku vybraných léčiv z důvodu možných výpadků výrobních kapacit v Číně a Indii, a to i pro další typy léčiv - tyto léky je zapotřebí shánět dnes.
+
+## Ekonomické úlevy dle návrhu Pirátů
+
+Současná situace má již teď znatelné dopady na ekonomiku ČR , a to jak na firmy tak jednotlivce. Lze předpokládat nutnost masivních investic do ekonomiky ze strany státu. V tuto chvíli je však namístě řešit především úlevy na straně firem a soukromníků.
+
+* Odlehčit zaměstnavatelům v zasažených odvětvích odpuštěním sociálních a daňových odvodů z práce za zaměstnance. 
+* Odpustit OSVČ bez příjmů povinné odvody.
+* Prodloužit ošetřovné a rozšířit ho i na OSVČ.
+* Poskytovat bezúročné půjčky i v menším objemu, než 500 000 Kč. 
+* Podpořit kurzarbeit – zvýšit podíl státu na mzdových nákladech a zjednodušit byrokracii
+* Nemocenskou za lidi v karanténě musí hradit stát.
+
+## Řešení sociálních dopadů
+* Souhlasíme s navrženým prodloužením ošetřovného. Zákonné změny podpoříme.
+* Pro administraci dávek je nutné umožnit podat žádost distančně, ne jen přes datovou schránku či s elektronickým podpisem, a to z  důvodu velkého shlukování lidí na Úřadech práce.
+* Navrhujeme změnit možnosti využití dávky mimořádné okamžité pomoci, aby mohla sloužit i fyzickým osobám s náhlým propadem příjmů, ministerstvu jsme nabídli řešení přes metodický pokyn.
+* Je nezbytné definovat postup pro lidi  bez domova, když jsou pro podezření na přítomnost Covid-19 testováni a čeká se na výsledek. Nyní neřešeno. Nabízí se možnost využití např. vyprázdněných penzionů, viz zahraničí.
+* Podmínky ošetřovného u OSVČ jsou velmi přísné. Co mají dělat rodiny, kde se zaměstnanec uvolnit nemůže (např. protože je zdravotník či hasič), ale OSVČ manželka/manžel tedy náhradu nedostane? Opět jsme se obrátili na MPSV.
+* U sociálních služeb je nutné krátkodobé převedení zaměstnanců a úprava, aby podporu seniorů služby mohly zajišťovat bez smlouvy s uživatelem
+* Zajištění speciálního režimu péče o děti pracovníků klíčových profesí je nejasné. Chystá vláda zjednodušenou vyhlášku? 
+* Lidé v exekuci a insolvenci budou ve zvlášť obtížné situaci a noví dlužníci budou přibývat - je třeba jednat i s ministerstvem spravedlnosti.
+
+{% endcapture %}
+
+
+<div class="row">
+	{% if page.article-boxes %}
+		{% include article-box/three-in-row.html article-boxes=page.article-boxes %}
+	{% endif %}
+
+    <div class="medium-12 large-8 columns">
+
+		<!-- Article -->
+		<article itemtype="http://schema.org/BlogPosting" itemscope="">
+			<link itemprop="mainEntityOfPage" href="{{ page.url }}">
+            {% capture content %} 
+            {{ md | markdownify }} 
+            {% endcapture %}
+            {% include page-header.html headline=page.title content=content %}
+		</article>
+		<!-- /Article -->
+	</div>
+	<div class="medium-12 large-4 columns">
+<aside class="o-section">
+  <div class="o-section-inner o-section-inner--rightBlock">
+      {% include right-bar/bar_video.html video=page.rousky %}
+  </div>
+</aside>
+	</div>
+</div>

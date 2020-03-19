@@ -14,18 +14,9 @@ main:
     name: Úvod
   - link: /aktuality
     name: Aktuality
-  - link: /vyresi/
-    name: Co návrh řeší
+  - link: /reseni/
+    name: Naše řešení
     match: vyresi
-  - link: /prehledy/
-    name: Dobrá praxe
-    match: prehledy
-  - link: /stanoviska/
-    name: Jak to vidí
-    match: stanoviska
-  - link: /zdroje/
-    name: Zdroje
-    match: zdroje
 
 bottom:
   - class: small-12 medium-4
