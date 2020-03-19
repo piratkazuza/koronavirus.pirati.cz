@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Rozcestník - koronavirus
+#title: Rozcestník - koronavirus
 rousky: 
     title: Informační video
     id: "s-hsj4gTJPg"
@@ -22,14 +22,20 @@ Stránky jsou ve výstavbě.
 	{% if page.article-boxes %}
 		{% include article-box/three-in-row.html article-boxes=page.article-boxes %}
 	{% endif %}
+    {% include homepage/banner.html 
+       title='Jak se společně postavit koronaviru?'
+       default='https://a.pirati.cz/mo/img/banner/koronavirus.png'
+    %}
 
     <div class="medium-12 large-8 columns">
 
 		<!-- Article -->
 		<article itemtype="http://schema.org/BlogPosting" itemscope="">
 			<link itemprop="mainEntityOfPage" href="{{ page.url }}">
-            {% capture md %} {{ md | markdownify }} {% endcapture %}
-            {% include page-header.html headline=page.title content=md %}
+            {% capture content %} 
+            {{ md | markdownify }} 
+            {% endcapture %}
+            {% include page-header.html headline=page.title content=content %}
 		</article>
 		<!-- /Article -->
 	</div>
