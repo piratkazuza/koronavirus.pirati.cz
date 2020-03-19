@@ -1,0 +1,49 @@
+{% if include.video %} 
+    {% assign youtube = include.video %}
+{% else %} 
+    {% assign youtube = page.youtube %}
+{% endif %}
+
+
+{% if youtube %}
+<div class="o-section-block show-for-medium">
+  <ul class="c-widget-accordion" data-accordion="" data-allow-all-closed="true">
+    <li class="c-widget-accordion-item is-active" data-accordion-item="">
+
+      {% if youtube.title %}
+      <a href="#" class="c-widget-accordion-link c-widget-accordion-link--yt">
+	      <span class="c-widget-accordion__title">{{youtube.title}}</span>
+      </a>
+      {% endif %}
+
+      <div class="c-widget-accordion-content" data-tab-content="">
+        <div class="c-widget-accordion-content-video">
+          
+          <div class="c-widget-accordion-content__video u-video-wrapper-16-9">
+          
+             {% if youtube.id %}
+		  <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/{{youtube.id}}?rel=0&amp;controls=0" style="border: 0;" allowfullscreen=""></iframe>
+             {% endif %}
+             
+	     {% if youtube.playlist %}
+
+	     <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list={{youtube.playlist}}" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+             {% endif %}
+          
+          </div>
+
+          {% if youtube.button %}
+          <div class="c-widget-accordion-content__cta">
+		  <a class="expanded button large u-0margin" href={{youtube.button.url}} target="_blank" rel="noopener noreferrer">
+			  {{youtube.button.title}}
+		  </a>
+          </div>
+          {% endif %}
+
+        </div>
+      </div>
+     
+    </li>
+  </ul>
+</div>
+{% endif %}

@@ -5,23 +5,22 @@
 # technické nastavení
 #
 
-title: Zán o bydlení # To co je napsané na tabu ve kterém je stránka.
+title: Koronavirový rozcestník # To co je napsané na tabu ve kterém je stránka.
 email: info@pirati.cz
 description: >-
   Zákon o podpoře pro sociání bydlení
 # dobré keywords jsou ty co lidé piší do googlu když hledají naši stránku
-keywords: piráti, česká pirátská strana, sociální bydlení, bydlení, pěstouncká péče, ústavní péče
+keywords: piráti, česká pirátská strana, koronavirus, CORVID-19
 
-mediaStorage: bydleni #obrazky a pdf jsou na https://a.pirati.cz/jihomoravsky/
+i#mediaStorage: bydleni #obrazky a pdf jsou na https://a.pirati.cz/jihomoravsky/
 
 administrator:
   email: jitka.novotna@pirati.cz # mail(y), kam pujdou chybove vystupy; vice e-mailu oddelujte carkou
 
 organization:
-  name: Zákon o podpoře sociální bydlení
-  shortName: Zákon o bydlení
-  email: example@pirati.cz
-  phone: +420 770 113 642
+  name: Rozcestník Pirátů ke koronaviru
+  shortName: Koronavirus
+  email: info@pirati.cz
   address: |
     Na Moráni 3,
     120 00 Praha 2
@@ -53,8 +52,6 @@ calendar:
   # and start the app with the env var `GOOGLE_CALENDAR_APIKEY=[myapikey] bundle exec jekyll serve`.
   # For deployment, contact website administrator to set you env variable.
   title: Celostátní kalendář
-  id: nk73m1m89vhf5g2vojp6tnqe58@group.calendar.google.com
-  page: https://calendar.google.com/calendar/embed?showTitle=0&amp;showNav=0&amp;showDate=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;mode=AGENDA&amp;height=500&amp;wkst=2&amp;hl=cs&amp;bgcolor=%23FFFFFF&amp;src=nk73m1m89vhf5g2vojp6tnqe58%40group.calendar.google.com&ctz=Europe%2FPrague&amp;color=%232952A3
 
 facebook:
   loadSDK: true
@@ -70,9 +67,6 @@ twitter:
 instagram:
   profilePage: https://www.instagram.com/pirati.cz/
 
-gplus:
-  profilePage: https://plus.google.com/u/0/+piratskastrana
-
 flicker:
   profilePage: https://www.flickr.com/photos/pirati/
 
@@ -80,7 +74,7 @@ forum:
   page: https://forum.pirati.cz/
 
 github:
-  url: https://github.com/pirati-web/bydleni.pirati.cz/
+  url: https://github.com/pirati-web/koronavirus.pirati.cz/
   branch: master
 
 #

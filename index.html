@@ -1,0 +1,43 @@
+---
+layout: default
+title: Rozcestník - koronavirus
+rousky: 
+    title: Informační video
+    id: "s-hsj4gTJPg"
+facebook:
+    profilePageName: Česká pirátská strana
+    profilePage: https://www.facebook.com/ceska.piratska.strana/
+rbar:
+   - video
+---
+
+{% capture md %} 
+Stránky jsou ve výstavbě.
+
+
+{% endcapture %}
+
+
+<div class="row">
+	{% if page.article-boxes %}
+		{% include article-box/three-in-row.html article-boxes=page.article-boxes %}
+	{% endif %}
+
+    <div class="medium-12 large-8 columns">
+
+		<!-- Article -->
+		<article itemtype="http://schema.org/BlogPosting" itemscope="">
+			<link itemprop="mainEntityOfPage" href="{{ page.url }}">
+            {% capture md %} {{ md | markdownify }} {% endcapture %}
+            {% include page-header.html headline=page.title content=md %}
+		</article>
+		<!-- /Article -->
+	</div>
+	<div class="medium-12 large-4 columns">
+<aside class="o-section">
+  <div class="o-section-inner o-section-inner--rightBlock">
+      {% include right-bar/bar_video.html video=page.rousky %}
+  </div>
+</aside>
+	</div>
+</div>
