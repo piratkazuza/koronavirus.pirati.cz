@@ -16,7 +16,7 @@ title: Rozcestník - koronavirus
     </tr>
     <tr>
       <td><strong>Nonstop infolinky Státního zdravotního ústavu (SZÚ)</strong></td>
-      <td><strong>724 810 106</strong>, <strong>725 191 367</strong>, <strong>725 191 370</strong></td>
+      <td><strong>724&nbsp;810&nbsp;106</strong>, &nbsp;&nbsp; <strong>725&nbsp;191&nbsp;367</strong>, &nbsp;&nbsp; <strong>725 &nbsp;191&nbsp;370</strong></td>
     </tr>
     <tr>
       <td>Pouze pro případ vážných zdravotních problémů či ohrožení života</td>
@@ -96,7 +96,7 @@ title: Rozcestník - koronavirus
     </tr>
     <tr>
       <td>Infolinka Ministerstva dopravy</td>
-      <td>CZ <strong>225 131 810</strong>, EN <strong>225 131 820</strong></td>
+      <td>CZ <strong>225 131 810</strong>,  EN <strong>225 131 820</strong></td>
       <td>8-20 h</td>
     </tr>
     <tr>
