@@ -11,6 +11,8 @@ top:
 
 main:
   - link: /
+    name: Úvod
+  - link: /rozcestnik/
     name: Rozcestník
   - link: /aktuality
     name: Aktuality
