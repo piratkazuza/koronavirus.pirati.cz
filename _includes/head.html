@@ -42,21 +42,8 @@
     <meta property="og:type"          content="website" />
     <meta property="og:title"         content="{{ title }}" />
     <meta property="og:description"   content="{{ description }}" />
-    {% if page.layout == 'post' %}
-        {% capture imgPath %}
-        https://a.pirati.cz/mo/img/banner/koronavirus.png
-        {% endcapture %}
-        <meta property="og:image"         content="{{ img_path | absolute_url }}" />
-    {% elsif page.img %}
-        {% if site.mediaStorage %}
-            {% capture imgPath %}https://a.pirati.cz/{{ site.mediaStorage }}/img/{{ include.img }}{% endcapture %}
-        {% else %}
-            {% capture img_path %}{% asset '{{ page.img }}' @path %}{% endcapture %}
-        {% endif %}
-        <meta property="og:image"         content="{{ img_path | absolute_url }}" />
-    {% else %}
-    <meta property="og:image"         content="{{ 'assets/img/brand/logo-round.png' | absolute_url }}" />
-    {% endif %}
+    {% capture imgPath %}https://a.pirati.cz/mo/img/banner/koronavirus.png {% endcapture %}
+    <meta property="og:image"         content="{{ img_path | absolute_url }}" />
     <!-- Fonts -->
     {% if page.layout != 'blank' %}
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
