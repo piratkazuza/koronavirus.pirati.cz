@@ -198,7 +198,7 @@ title: Rozcestník - koronavirus
 
 ### Dobrovolníci
 
-[damerousky.cz]( www.damerousky.cz) - sdílení podomácku vyrobených roušek
+[damerousky.cz](https://www.damerousky.cz) - sdílení podomácku vyrobených roušek
 
 [Pomoc do domu](https://www.pomocdodomu.cz/) - nabídky a poptávky pomoci
 
@@ -210,19 +210,19 @@ title: Rozcestník - koronavirus
 
 [Návod pro pomocníky](https://pomocsousedum.cz)
 
-[Charita Česká republika](https://www.facebook.com/CharitaCR/)
+[Charita Česká republika](https://www.facebook.com/CharitaCR/) - facebook
 
 [Naděje](https://www.nadeje.cz/)
 
-[Seniore](https://seniore.org)- sousdská pomoc a vzájemná pomoc seniorů
+[Seniore](https://seniore.org) - sousdská pomoc a vzájemná pomoc seniorů
 
-[Herci, umělci bez práce](www.facebook.com/groups/580768352517479) - facebooková skupina umělců nabízejících pomoc
+[Herci, umělci bez práce](https://www.facebook.com/groups/580768352517479) - facebooková skupina umělců nabízejících pomoc
 
 [Pomáháme Praze 2020](https://sites.google.com/view/dobrovolnik-covid19) - Český červený kříž
 
 [Prachatičáci pomáhají](https://www.facebook.com/groups/201383317761484/?hc_location=group) - facebooková skupina
 
-[Návštěvy POTMĚ](www.navstevypotme.cz) - telefonní návštěvy zrakově postižených u seniorů
+[Návštěvy POTMĚ](http://www.navstevypotme.cz) - telefonní návštěvy zrakově postižených u seniorů
 
 [Krása pomoci](https://www.krasapomoci.cz/) - ucelené informace o pomoci seniorům
 
