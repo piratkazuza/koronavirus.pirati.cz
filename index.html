@@ -1,8 +1,11 @@
 ---
 layout: default
 #title: Rozcestník - koronavirus
-rousky: 
+ruce: 
     title: Informační video
+    id: "irQv1ZoEsgs"
+rousky: 
+    title: Výroba roušek
     id: "s-hsj4gTJPg"
 facebook:
     profilePageName: Česká pirátská strana
@@ -59,6 +62,7 @@ Zaujalo vás, co děláme? **[Naloďte se](https://nalodeni.pirati.cz/) na pirá
 	<div class="medium-12 large-4 columns">
 <aside class="o-section">
   <div class="o-section-inner o-section-inner--rightBlock">
+      {% include right-bar/bar_video.html video=page.ruce %}
       {% include right-bar/bar_video.html video=page.rousky %}
   </div>
 </aside>
